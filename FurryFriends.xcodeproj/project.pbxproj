@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D401AE2D1A93161200CF6576 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D401AE2C1A93161200CF6576 /* LogInViewController.swift */; };
+		D415B1A41A8AE7C3004543BA /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D415B1A31A8AE7C3004543BA /* common.swift */; };
 		D4662C9C1A8AD5A100ED3A02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4662C9B1A8AD5A100ED3A02 /* AppDelegate.swift */; };
 		D4662C9E1A8AD5A100ED3A02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4662C9D1A8AD5A100ED3A02 /* ViewController.swift */; };
 		D4662CA11A8AD5A100ED3A02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4662C9F1A8AD5A100ED3A02 /* Main.storyboard */; };
 		D4662CA31A8AD5A100ED3A02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4662CA21A8AD5A100ED3A02 /* Images.xcassets */; };
 		D4662CA61A8AD5A100ED3A02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4662CA41A8AD5A100ED3A02 /* LaunchScreen.xib */; };
 		D4662CB21A8AD5A100ED3A02 /* FurryFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4662CB11A8AD5A100ED3A02 /* FurryFriendsTests.swift */; };
+		D4662CBC1A8AD6E100ED3A02 /* RabbitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4662CBB1A8AD6E100ED3A02 /* RabbitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D401AE2C1A93161200CF6576 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		D415B1A31A8AE7C3004543BA /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = common.swift; path = ../common.swift; sourceTree = "<group>"; };
 		D4662C961A8AD5A100ED3A02 /* FurryFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurryFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4662C9A1A8AD5A100ED3A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4662C9B1A8AD5A100ED3A02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		D4662CAB1A8AD5A100ED3A02 /* FurryFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurryFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4662CB01A8AD5A100ED3A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4662CB11A8AD5A100ED3A02 /* FurryFriendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurryFriendsTests.swift; sourceTree = "<group>"; };
+		D4662CBB1A8AD6E100ED3A02 /* RabbitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RabbitViewController.swift; path = ../RabbitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		D4662C981A8AD5A100ED3A02 /* FurryFriends */ = {
 			isa = PBXGroup;
 			children = (
+				D401AE2C1A93161200CF6576 /* LogInViewController.swift */,
+				D415B1A31A8AE7C3004543BA /* common.swift */,
+				D4662CBB1A8AD6E100ED3A02 /* RabbitViewController.swift */,
 				D4662C9B1A8AD5A100ED3A02 /* AppDelegate.swift */,
 				D4662C9D1A8AD5A100ED3A02 /* ViewController.swift */,
 				D4662C9F1A8AD5A100ED3A02 /* Main.storyboard */,
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D415B1A41A8AE7C3004543BA /* common.swift in Sources */,
+				D4662CBC1A8AD6E100ED3A02 /* RabbitViewController.swift in Sources */,
 				D4662C9E1A8AD5A100ED3A02 /* ViewController.swift in Sources */,
+				D401AE2D1A93161200CF6576 /* LogInViewController.swift in Sources */,
 				D4662C9C1A8AD5A100ED3A02 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +417,7 @@
 				D4662CB71A8AD5A100ED3A02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4662CB81A8AD5A100ED3A02 /* Build configuration list for PBXNativeTarget "FurryFriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				D4662CBA1A8AD5A100ED3A02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
